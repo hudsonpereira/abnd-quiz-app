@@ -23,6 +23,7 @@
             app:layout_constraintTop_toTopOf="parent" />
         
         <EditText
+            android:id="@+id/answer_question_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -37,21 +38,25 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <CheckBox
+            android:id="@+id/java_checkbox"
             android:text="Java"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <CheckBox
+            android:id="@+id/php_checkbox"
             android:text="PHP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <CheckBox
+            android:id="@+id/kotlin_checkbox"
             android:text="Kotlin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <CheckBox
+            android:id="@+id/go_checkbox"
             android:text="Go Lang"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -75,6 +80,7 @@
                 android:layout_height="wrap_content" />
 
             <RadioButton
+                android:id="@+id/as_radio"
                 android:text="Android Studio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -101,6 +107,8 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
+            android:inputType="textNoSuggestions"
+            android:id="@+id/answer_question_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -115,21 +123,25 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <CheckBox
+            android:id="@+id/assign_1"
             android:text="int age = 25;"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <CheckBox
+            android:id="@+id/assign_2"
             android:text="String name = Hudson;"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <CheckBox
+            android:id="@+id/assign_3"
             android:text="int role = Android Developer;"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <CheckBox
+            android:id="@+id/assign_4"
             android:text="String os = 'Mac os';"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
